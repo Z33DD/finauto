@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "finauto"
+version = "0.1.0"
+description = "An automation suite to my personal finances"
+authors = ["Pedro Antonio <pedro@z33dd.com>"]
+license = "The Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+splittercalculationlibrary = "^0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
